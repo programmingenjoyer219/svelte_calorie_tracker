@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.nav-button {
+		@apply btn border-2 bg-green-500 hover:bg-green-300;
+	}
+
+	.nav-button-secondary {
+		@apply btn border-2 bg-orange-400 hover:bg-orange-300;
+	}
+
+	.nav-button-tertiary {
+		@apply btn border-2 bg-red-400 hover:bg-red-300;
+	}
+
+	.custom-placeholder {
+		@apply placeholder:font-mono placeholder:font-semibold placeholder:text-gray-400;
+	}
+}
